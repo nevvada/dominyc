@@ -2,7 +2,7 @@
   "name": "dominyc",
   "version": "1.0.0",
   "description": "Official site for DOMINYC",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
