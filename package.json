@@ -1,0 +1,20 @@
+{
+  "name": "dominyc",
+  "version": "1.0.0",
+  "description": "Official site for DOMINYC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlemast/dominyc.git"
+  },
+  "keywords": [],
+  "author": "Nathan Le Master",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nlemast/dominyc/issues"
+  },
+  "homepage": "https://github.com/nlemast/dominyc#readme"
+}
