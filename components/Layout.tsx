@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -12,11 +13,27 @@ const StyledLayout = styled.main`
   width: 100vw;
 `;
 
+const StyledImage = styled.section`
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+`;
+
 const Layout: React.FC = () => {
   return (
     <>
       <StyledReset>
-        <StyledLayout />
+        <StyledLayout>
+          <StyledImage>
+            <Image
+              height={750}
+              src="/images/Dominyc.png"
+              width={1000}
+            />
+          </StyledImage>
+        </StyledLayout>
       </StyledReset>
     </>
   );
