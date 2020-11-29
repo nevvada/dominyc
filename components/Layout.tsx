@@ -1,23 +1,25 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const StyledReset = styled.body`
-  box-sizing: border-box;
-  margin: 0 !important;
-`;
+import CSSReset from './CSSReset';
+import Header from './Header';
 
 const StyledLayout = styled.main`
   background-color: #000;
+  color: #F8D736;
+  font-family: 'Permanent Marker', cursive;
   height: 100vh;
   width: 100vw;
 `;
 
-const Layout: React.FC = () => {
+const Layout: React.FC = ({ children }) => {
   return (
     <>
-      <StyledReset>
-        <StyledLayout />
-      </StyledReset>
+      <CSSReset />
+      <StyledLayout>
+        <Header />
+        {children}
+      </StyledLayout>
     </>
   );
 };
